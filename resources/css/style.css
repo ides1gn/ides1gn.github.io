@@ -1,23 +1,30 @@
-body {
-	font-family: 'Open Sans', Helvetica;
-	font-size: 12px;
-}
-
-.circle {
-	background-color: #333;
-	width: 200px;
-	height: 200px;
+.circle-left {
+	border: 2px solid #333;
+	width: 198px;
+	height: 198px;
 	border-radius: 50%;
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 40%;
 	margin: -100px 0 0 -100px;
 }
 
-.circle p {
-	color: #fff;
-	text-align: center;
-	font-weight: bold;
-	margin-top: 40%;
-	font-size: 2em;
+.point {
+	background-color: #333;
+	width: 4px;
+	height: 4px;
+	margin-top: 50%;
+	margin-left: 49%;
+	border-radius: 50%;
+}
+
+.circle-right {
+	border: 2px solid #333;
+	width: 198px;
+	height: 198px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 60%;
+	margin: -100px 0 0 -100px;
 }
