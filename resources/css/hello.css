@@ -1,6 +1,10 @@
-@import "style.css";
+@import url('https://fonts.googleapis.com/css?family=Enriqueta|Josefin+Sans|Nunito|Red+Hat+Text&display=swap');
 
 body {
+	background-color: #202020;
+	color: #fefef8;
+	text-align: center;
+	font-family: 'Red Hat Text', sans-serif;
 	font-size: 60px;
 }
 
@@ -10,7 +14,6 @@ div {
 	margin: 80px auto;
 }
 
-/*grid*/
 ul {
   display: grid;
   margin-left: -80px;
