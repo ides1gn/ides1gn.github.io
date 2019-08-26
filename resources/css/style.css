@@ -1,3 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Enriqueta|Josefin+Sans|Nunito|Red+Hat+Text&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: #202020;
+	color: #fefef8;
+	text-align: center;
+	font-family: 'Red Hat Text', sans-serif;
+}
+
+#header	{
+	font-weight: 100;
+	text-transform: uppercase;
+
+}
+#header h1 {
+	font-size: 40px;
+	line-height: 1em;
+	padding-top: 15px;
+}
+nav {
+	padding-bottom: 3px;
+	font-size: 18px;
+}
+nav ul {
+	display: inline;
+}
+nav ul li {
+	list-style: none;
+	margin-left: 20px;
+	margin-right:20px;
+	line-height: 1.5em;
+	display: inline;
+}
+nav ul li.first {
+	margin-left: -20px;
+}
+
+nav ul li a {
+	color: inherit;
+	text-decoration: none;
+
+}
+nav ul li a:hover {
+	color: #FF3333;
+}
+
+/*circle*/
 .circle {
 	border: 2px solid #333;
 	width: 198px;
@@ -8,3 +59,4 @@
 	left: 50%;
 	margin: -100px 0 0 -100px;
 }
+
